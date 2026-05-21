@@ -1,0 +1,24 @@
+{
+  "name": "@sravez/kbo-report",
+  "description": "Génération de rapport de roulage pour KBO",
+  "homePage": "https://github.com/sravez/kbo_widget_report",
+  "version": "0.0.1",
+  "grist": [
+    {
+      "name": "Rapport de roulage",
+      "url": "https://gristlabs.github.io/grist-widget/kbo-widget-report/index.html",
+      "widgetId": "@sravez/kbo_widget_report",
+      "published": true,
+      "accessLevel": "full",
+      "renderAfterReady": true,
+      "description": "KBO Report",
+      "authors": [
+        {
+          "name": "Serge RAVEZ",
+          "url": "https://github.com/sravez"
+        }
+      ],
+      "isGristLabsMaintained": false
+    }
+  ]
+}
