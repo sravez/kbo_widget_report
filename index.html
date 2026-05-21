@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script src="https://docs.getgrist.com/grist-plugin-api.js"></script>
+    <style>
+        #vehicles {
+            font-family: monospace;
+            font-size: 12pt;
+            display: grid;
+            grid-template-columns: 7em 14em 6em 6em 6em;
+        }
+        .data {
+            display: inline-block;
+            justify-self: right;
+        }
+    </style>
+</head>
+<body>
+<div style="font-family: sans-serif; padding: 1em;">
+    <h2> Roulage </h2>
+    <p>
+        Flotte : <span id="fleet">
+    </p>
+    <h3>Véhicules</h3>
+    <div id="vehicles"></div>
+</div>
+</body>
+</html>
